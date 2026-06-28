@@ -12,13 +12,13 @@ type RatingFields = {
 };
 
 const RATING_LABELS: { key: keyof RatingFields; label: string }[] = [
-  { key: 'lecturerRating', label: 'Lecturer / Teaching' },
-  { key: 'workloadRating', label: 'Workload' },
-  { key: 'difficultyRating', label: 'Difficulty' },
-  { key: 'usefulnessRating', label: 'Usefulness' },
-  { key: 'markingFairnessRating', label: 'Marking Fairness' },
-  { key: 'enjoymentRating', label: 'Enjoyment' },
-  { key: 'overallRating', label: 'Overall' },
+  { key: 'lecturerRating', label: 'Lecturer / Teaching (1 - Bad, 5 - Good)' },
+  { key: 'workloadRating', label: 'Workload (1 - Bad, 5 - Good)' },
+  { key: 'difficultyRating', label: 'Difficulty (1 - Difficult, 5 - Easy)' },
+  { key: 'usefulnessRating', label: 'Usefulness (1 - Not Useful, 5 - Useful)' },
+  { key: 'markingFairnessRating', label: 'Marking Fairness (1 - Unfair, 5 - Extremely Fair)' },
+  { key: 'enjoymentRating', label: 'Enjoyment (1 - Boring, 5 - Enjoyable)' },
+  { key: 'overallRating', label: 'Overall (1 - Bad, 5 - Good)' },
 ];
 
 const emptyRatings: RatingFields = {
