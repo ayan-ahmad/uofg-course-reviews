@@ -94,7 +94,8 @@ export default function ReviewForm({ courseCode, onSubmitted }: Props) {
 
   return (
     <form onSubmit={handleSubmit} className="rounded-lg border border-border bg-surface p-6">
-      <h3 className="mb-5 text-base font-semibold text-ink">Write a review</h3>
+      <h3 className="text-base font-semibold text-ink">Write a review</h3>
+      <p className="mb-5 text-sm font-light text-ink-subtle">By leaving a review you agree to remain respectful and honest. Any hateful comments will be removed.</p>
 
       <div className="mb-5 flex flex-col gap-4">
         {RATING_LABELS.map(({ key, label }) => (
@@ -108,10 +109,10 @@ export default function ReviewForm({ courseCode, onSubmitted }: Props) {
       <textarea
         value={reviewText}
         onChange={(e) => setReviewText(e.target.value)}
-        placeholder="Share your experience (optional)…"
-        rows={4}
+        placeholder="Share your experience (optional, max 2000 characters)…"
+        rows={6}
         maxLength={2000}
-        className="mb-4 w-full resize-none rounded-md border border-border bg-white px-3 py-2 text-sm text-ink-subtle placeholder:text-ink-subtle focus:border-accent focus:outline-none"
+        className="mb-4 w-full resize-y rounded-md border border-border bg-white px-3 py-2 text-sm text-ink-subtle placeholder:text-ink-subtle focus:border-accent focus:outline-none"
       />
 
       {error && <p className="mb-3 text-sm text-red-600">{error}</p>}
