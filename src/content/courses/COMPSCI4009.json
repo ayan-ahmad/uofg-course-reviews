@@ -1,0 +1,209 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4009"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Algorithmics I (H)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "To develop the student's skills in the design and analysis of algorithms; To study algorithms for a range of important standard problems; To introduce the student to the theory of NP-completeness together with its practical implications;To make the student aware of fundamental concepts of computability."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "Algorithmic Foundations 2 (or equivalent)",
+      "Algorithms and Data Structures 2 (or equivalent)",
+      "Object Oriented Software Engineering 2 (or equivalent)",
+      "Java Programming 2 (or equivalent)",
+      "40 credits of Level 1 Mathematics is strongly recommended.",
+      "This course is only available to Honours students."
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 1"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "Two one-hour lectures and one one-hour tutorial per week."
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "To develop the student's skills in the design and analysis of algorithms; \nTo study algorithms for a range of important standard problems; \nTo introduce the student to the theory of NP-completeness together with its practical implications;\nTo make the student aware of fundamental concepts of computability."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of the course the student will be able to:\nRecognise, and be able to use, standard algorithmic design methods;\nApply the basic principles of algorithm analysis;\nCode standard efficient sorting algorithms;\nCode fundamental graph algorithms - for search and traversal, shortest paths, minimum spanning trees, and topological sorting;\nDescribe classical algorithms for string searching, string comparison, and text compression;\nExpound on the basic principles, and the practical implications of, the theory of NP-completeness;\nFollow NP-completeness proofs for particular problems;\nDeploy various strategies for dealing with computational problems that are apparently intractable;\nProvide examples of the computability and unsolvability, and know some standard examples of unsolvable problems."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 75.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 25.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Examination 75%, assessed practical exercise 20% and in-class quizzes 5%."
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "N/A"
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "December"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "90 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Algorithmics I (H)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Algorithms & Theory"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

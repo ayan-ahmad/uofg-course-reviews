@@ -1,0 +1,205 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4076"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Robotics Foundations (H)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "This course will introduce students to the computational and mathematical concepts, information processing and software frameworks of robotic systems. It will also consider the sensory and actuation systems required by a robot to sense, understand and interact with its environment. The primary aim is to give students an understanding of how to prototype and implement autonomous robotic systems by making use of a sophisticated robotic middleware (e.g. Robot Operating System (ROS)), its associated data transmission channels, software robotic stacks and the underlying mathematics required to operate a robot. This is a hands-on course, designed to provide students with the required programming, mathematical and debugging skill-set to implement robotic solutions based on the use of off-the-shelf commercially available real and virtual robots. Python skills are a requirement for this course; C/C++ skills are desirable but not essential."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "Data Fundamentals (H) (or equivalent)",
+      "CS1P (or equivalent)"
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 2"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "One two-hour lecture and one hour lab session per week."
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "The aims of Robotics Foundations are:\nTo facilitate students understanding of core concepts involved in robotic software development, from perception to planning and action;\nTo understand how sensed data and pre-obtained information, or world/domain “knowledge”, is used to plan interaction with the environment\nTo understand matrix and transformation mathematical operators to accomplish complex robotic motions.\nTo develop the ability to implement, test, validate and deploy a mobile/manipulation robotic problem, based on the use of the Robot Operating System.\nThe relationship between physical robots and their virtual equivalents required for simulation, development and debugging will also be considered.\nTo develop a complete robotic application using off-the-shelf virtual robotic platforms."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course, students will be able to:\n\nDescribe and understand what constitutes a robot system\nFormulate robot’s information capabilities within robotic middleware and understand how data is transformed from basic control, sensor and perception functions to robot actions\nCreate and implement robot kinematics and motions in mobile robots and robot manipulators\nApply techniques for path and motion planning that allows a robot to move\nDesign control/behaviour tasks for mobile robots and robot manipulators\nApply practical software engineering principles during the development of a robotic application\nUnderstand the facilities provided by ROS and how to structure robot control software systems using ROS and vision systems in OpenCV.\nBe able to program a data processing pipeline consisting of a robot control system in the ROS environment to carry out a specific task, such as locating an object, grasping it and placing it in another location."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 40.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 40.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 80.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 20.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 0.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Team Project Application: 20%, Exam: 80%"
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Students will receive formative feedback on their lab exercises and team project applications at supervised lab sessions."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "April/May"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "90 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Robotics Foundations (H)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Computer Vision & Robotics"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": "Application project will be completed in groups."
+  }
+}

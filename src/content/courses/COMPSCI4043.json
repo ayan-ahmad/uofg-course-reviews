@@ -1,0 +1,204 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4043"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Systems And Networks"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "To introduce the structure and function of computer systems, in particular:\nTo introduce the concept of representation of data.\nTo provide a general understanding of what computers are and how they work.\nTo provide background helpful for better understanding the behaviour of programming languages, compilers, and operating systems.\nTo convey understanding of descriptions of computer systems and projections of future trends."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      null
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 1"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "Two one-hour lectures, one-hour tutorial, one-hour lab session per week."
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "To introduce the structure and function of computer systems, in particular:\nTo introduce the concept of representation of data.\nTo provide a general understanding of what computers are and how they work.\nTo provide background helpful for better understanding the behaviour of programming languages, compilers, and operating systems.\nTo convey understanding of descriptions of computer systems and projections of future trends."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of the course students will be able to:\nDescribe the main components of a computer system;\nDescribe the concepts of digital representation, bits and words;\nWork with the binary and two's complement representation of numbers and convert between these and decimal numbers;\nExplain how the behaviours of signed and unsigned operations are caused by the underlying representation;\nDescribe of how basic control constructs and algorithms are translated to machine language;\nCompare critically two machine architectures at the instructions set level;\nDescribe the central functions of an operating system;\nDescribe how virtual memory works, together with its benefits and limitations;\nDescribe how end systems and routers are connected in the Internet;\nExplain the main levels of abstraction in computer networks."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 75.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 25.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Examination 75%, coursework 25%"
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Written feedback on assessed coursework; verbal feedback during class, tutorial and lab discussions."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "December"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "120 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Systems And Networks"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Systems & Architecture", "Networking"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

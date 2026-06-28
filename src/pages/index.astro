@@ -1,0 +1,21 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { getCollection } from "astro:content";
+import CourseExplorer from "@/components/CourseExplorer";
+
+const entries = await getCollection("courses");
+const courses = entries.map((e) => ({
+  code: e.data.course_code.value,
+  title: e.data.course_title.value,
+  shortTitle: e.data.short_title.value,
+  level: e.data.academic_level.value,
+  credits: e.data.credits.value,
+  description: e.data.short_description_of_the_course.value,
+  typicallyOffered: e.data.typically_offered.value,
+  categories: e.data.categories.value,
+}));
+---
+
+<Layout>
+  <CourseExplorer courses={courses} client:load />
+</Layout>

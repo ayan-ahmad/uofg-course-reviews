@@ -1,0 +1,204 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4080"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Computational Social Intelligence (H)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "The course introduces the core methodologies behind automatic approaches aimed at making sense of social and psychological aspects of human behaviour. In particular, the course shows 1) how to design and organise the observation of human behaviour in view of the application of automatic approaches, 2) how to apply psychometric instruments for the quantitative analysis of social and psychological phenomena, and 3) how to apply basic statistical techniques to human behaviour analysis and understanding. The course is interdisciplinary and it requires the acquisition of both computing and social psychological notions. The application areas to which the course is relevant include, e.g., social robotics, user experience analysis, social media analytics, surveillance and e-health (the list is not exhaustive)."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "It is recommended, but not mandatory, to attend “Artificial Intelligence”, “Data Fundamentals” or “Machine Learning”."
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": "Computational Social Intelligence (M)"
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 1"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "Three hours per week."
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "The aim of the course is to introduce the students to the main computational methodologies for automatic analysis of human behaviour. In particular the course teaches how to design and organise the observation of human behaviour in view of the application of computational approaches. Furthermore, it shows how to quantify social and psychological phenomena through the application of standard psychometric questionnaires. Finally, it introduces basic methodologies - based on machine learning and statistics - aimed at mapping behavioural observations into high-level interpretations of human behaviour that take into account social and psychological aspects of human-human and human-machine interactions."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course, the students will be able to:\nDesign and organise the collection of behavioural data in view of the application of statistical and computational methodologies for human behaviour understanding;\nMeasure social and psychological constructs - in quantitative terms - through the adoption of standard psychometric questionnaires; \nApply basic statistical methodologies (e.g., k-Means and Naïve Bayes Classifier) to automatically map behavioural observations into social and psychological constructs."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 80.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 80.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 20.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 0.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Examination 80%, Report 20%."
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "The students receive formative assessment during the practical classes. Part of the formative assessment is individual (the student receive feedback by discussing individually with the lecturer) and part is collective (the lecturer provides feedback to the class as a whole about the main issues encountered during the practical class)."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "April/May"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "120 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Comp Social Intelligence (H)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["AI & Machine Learning"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

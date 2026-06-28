@@ -1,0 +1,204 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4066"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Computer Vision Methods and Applications (H)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "The Computer Vision Methods and Applications (CVMA) course is intended to equip students with the necessary theoretical and practical understanding of image processing and computer vision techniques to enable them to meet the challenges of building advanced image-based applications. Examples of potential vision-based applications include: image understanding in mobile devices (cameras, phones, tablet computers etc.), robot vision systems, autonomous vehicle guidance and road monitoring, driver attention monitoring, image database query systems, creative media production tools, interactive gaming, augmented reality and visual biometrics, forensic image analysis, security and surveillance, and medical imaging. The course will focus on the application of recent advances in Computer Vision techniques that underpin a wide variety of systems and products based on methods such as: face detection, object recognition, tracking, segmentation and 3D imaging."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "No previous experience in computer vision is required, however a basic understanding of mathematics concepts, for example: matrices, vectors, elementary calculus and basic probability would be helpful, but not essential."
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": "None\n\nAlgorithmics would provide a useful adjunct to CVMA."
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 1"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "3 hours per week."
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "To provide a theoretical and practical understanding of 2D and 3D visual perception based on current image analysis techniques and currently available vision software libraries.\nTo equip the student with the ability to tackle the practical aspects of developing algorithms for vision–based applications as listed above (section 13). Therefore, CVMA will provide the student with the basic tools to undertake Level 4 and Masters projects that require vision to be applied within in these related disciplines. \nTo prepare the student for a career in Industry as a Computer Vision specialist in areas such as Research & Development, Technical Marketing and Intellectual Property Management; or for an Academic career, e.g. PhD research or Research Assistantship."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of the course students will be able to: \nAnalyse critically computer vision algorithms and applications based on knowledge of image representation, image formation and basic processing techniques;\nImplement feature extraction and object recognition algorithms;\nCritically evaluate the basic geometric concepts in 3D computer vision and employed in recovery of 3D surfaces from stereo-pair images, or motion fields from image sequences;\nDemonstrate the ability to apply the rudiments of information theory and basic image compression                                     techniques to the design of image coding/decoding algorithms;\nDemonstrate competence in the use of the programming languages for vision-based applications prototyping.  Demonstrate competence in the application of the key current image analysis libraries."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 40.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 80.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 20.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 0.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Examination 80%\nLab Exercise 20%"
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Written feedback on laboratory coursework; verbal feedback during class and lab discussions."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "April/May"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "120 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "CVMA (H)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Computer Vision & Robotics"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4073"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Data Fundamentals (H)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "This course will cover computational approaches to working with numerical data on a large scale. Computation on arrays of continuous variables underpins machine learning, information retrieval, data analytics, computer vision and signal processing. This course will cover vectorised operations on numerical arrays, fundamental stochastic and probabilistic methods and scientific visualisation."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      null
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 1"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "Two one-hour lectures and one one-hour tutorial per week."
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "This course will give students skills in manipulating continuous data, specifying problems in a forms that can be solved numerically, dealing with unreliable and uncertain information, and communicating these results. DF(H) will introduce operations on vectors and matrices, specifying and solving problems via numerical optimisation, time series modelling, scientific visualisation and basic probabilistic computation. Students will learn how to bridge the continuous and discrete worlds; for example solving graph flow problems via matrix operations, or how to do robust A/B testing of websites The focus will be firmly on applying and solving these problems from a computer science perspective and not on theoretical background or formal proofs. The course also aims to develop students’ understanding of sustainability and decarbonisation as related to the topic."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course students will be able to:\nformulate problems in tensor form and fluently manipulate tensors;\nefficiently run vectorized code; \napply matrix decomposition to practical problems;\nrepresent problems as objective functions and apply optimisation to solve them;\nformulate and understand problems with stochastic elements;\nunderstand the principles of Bayesian inference and apply it to simple problems;\ncreate effective, clear, and precise visualisations of scientific data;\nunderstand the effects of sampling and noise on time series;\nprocess, filter, summarise and plot time series and array data.\nrecognise risks and ethical issues in data analysis and numerical computations and reason about their environmental impact."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 40.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 60.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 80.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 15.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 5.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Examination 80% and Practical Skills Assessment 15%, in-class quizzes 5%.\n\nPractical: Lab work, submitting code for a series of 4 laboratory exercises. Each will be worth 3.75% of the total marks for this course.\nQuizzes: multiple choice questions administered during lectures."
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Written feedback to be provided with the five summative assessments throughout the course; verbal feedback in class sessions."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "April/May"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "90 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Data Fundamentals (H)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Data & Databases"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

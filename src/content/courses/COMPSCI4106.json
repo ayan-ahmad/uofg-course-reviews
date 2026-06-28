@@ -1,0 +1,208 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4106"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Cloud Systems (H)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "In this course, students will learn about system virtualisation and containerisation techniques as the foundation of cloud computing. \nFurthermore, students will acquire a working knowledge of key cloud technologies and services (such as hypervisors, container runtimes and orchestrators, and cloud infrastructure and platform services) and related system designs (such as for load balancing, partitioning, and replication) for building scalable and fault-tolerant distributed systems. As part of this, students will develop the ability to critically evaluate available deployment options in the ever-changing cloud service landscape in the context of application-specific performance, dependability, security/privacy, and efficiency requirements. \nFinally, students will gain a critical understanding of the growing environmental footprint of cloud computing as well as techniques for assessing and reducing the greenhouse gas emissions associated with cloud infrastructure and applications."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "Networks and Operating Systems Essentials 2 (or equivalent)",
+      "Introduction to Object Oriented Programming 2 (or equivalent)",
+      "Object Oriented Software Engineering 2 (or equivalent)",
+      "Systems Programming (H) (or equivalent)",
+      "Operating Systems (H) is recommended but not required"
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": "Big Data: Systems, Programming, and Management (H) (or equivalent) is recommended but not required"
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": "Cloud Systems (M)"
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 2"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "Two one-hour lectures and one one-hour computer laboratory session per week"
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "This course aims to provide students with an integrated understanding and practical experiences of designing, operating, and evaluating cloud systems against given performance, dependability, security/privacy, efficiency, and sustainability requirements."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course students will be able to:\ncompare various shared resource virtualisation/containerisation techniques in terms of their performance overhead, resource isolation, and provided flexibility;\nevaluate options for deploying software application components in the ever-changing landscape of available cloud services;\nemploy resource management methods and scalable system designs so that cloud applications meet performance, dependability, efficiency, and sustainability requirements;\ndesign distributed systems that combine edge and cloud computing to improve the performance, dependability, security/privacy, efficiency, and sustainability of applications; and\nanalyse the carbon footprint of edge/cloud resources and applications"
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 50.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 50.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Two coursework elements (each worth 25%; practically embracing concepts covered in the course) and a final written examination (a written exam, 50%; focusing on the relevant theory). \n\nAE1 assesses ILOs 1 and 2 and focuses on benchmarking various virtual resources in the context of given application requirements, requiring students to develop their own measurement scripts that run benchmarking tools on configured cloud resources. For AE1, students are asked to work, reflect, and submit in small teams (of 3-5 students), to provide a more comprehensive learning experience. \n\nAE2 assesses ILOs 4 and 5 and focuses on the application of theoretical concepts on scalable and sustainable cloud design, deployment, and operation. This will evaluate students' understanding of core principles and their ability to apply them to realistic problem-solving scenarios. \n\nThe final written exam assesses ILOs 1 to 5 (with an emphasis on ILO 3) using a combination of long-form answers and multiple-choice questions with brief justifications. The written exam is an individual assessment."
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "The students will be asked to give short presentations (around 5 minutes, with or without slides, ungraded) to receive formative feedback from peers and tutors in the lab sessions. The purpose of these presentations is to collect friendly feedback on the first steps, preliminary results, and further plans at a point in time when constructive suggestions can still be efficiently taken into account. \n\nFeedback will further be provided for each lecture chapter through a combination of ungraded short MCQ-style quizzes (around 5 questions) and ungraded in-lecture group discussion exercises (5-15 minutes)."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "April/May"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "60 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Cloud Systems (H)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Networking", "Systems & Architecture"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

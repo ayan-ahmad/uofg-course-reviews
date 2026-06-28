@@ -1,0 +1,204 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4039"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Programming"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 20
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "To provide a firm foundation in skills and key concepts essential for programming fundamentally in Python which is the main language used in the programme, while introducing also to Java syntax.\nTo provide a thorough introduction to problem solving and Python programming, giving a basis for study in topics such as algorithms and data structures, object-oriented design, and human computer interaction.\nTo develop skills, required for implementing solutions to well-specified programming problems, which could then be transferred to other programming languages like Java."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      null
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 1"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "Three lectures, one tutorial and one lab session per week. Special timetable in week 1.\n."
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "To provide a firm foundation in skills and key concepts essential for programming fundamentally in Python which is the main language used in the programme, while also introducing to Java syntax.\nTo provide a thorough introduction to problem solving and Python programming, giving a basis for study in topics such as algorithms and data structures, object-oriented design, and human computer interaction.\nTo develop skills, required for implementing solutions to well-specified programming problems, which could then be transferred to other programming languages like Java."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of the course students will be able to:\nDemonstrate familiarity with the relevant programming environment; \nPerform simple programming using primitive data types and objects;\nImplement simple algorithms using repetition and conditional execution;\nDevelop well-structured programs in Python, employing suitable elementary algorithms and data structures as required;\nWrite maintainable, robust, reliable, and reusable code, together with concise and informative documentation;\nProvide evidence of program correctness through thorough testing."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 38.0,
+          "notional_learning_hours": 38.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 13.0,
+          "notional_learning_hours": 13.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 41.0,
+          "notional_learning_hours": 41.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 108.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 92.0,
+        "notional_learning_hours": 200.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 75.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 25.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 0.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Assessed exercise: 25%, Examination: 75%."
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Written feedback on summatively assessed coursework. Verbal feedback on tutorial and lab exercises (formatively assessed coursework); verbal feedback during class, tutorial and lab sessions."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "December"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "120 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Programming"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Programming Languages"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": "The following list of topics gives an indication (though not necessarily an exact breakdown) of the likely content of the course:\n\nIntroduction to Programming\nIntegrated Development Environment\nVariables, types, expressions, assignment\nint, char, float, double, long\nHelper objects, instance variables, constructors\nExceptions\nStrings\nString formatting\nString tokenisation\nStringBuilder\nArithmetic\nLimited precision\nOverflow\nProgram development\nBooleans and boolean operators\nConditionals\nThe ? operator\nIteration\nFor loops\nWhile loops\nNested loops\nFunctions/Methods\nDividing responsibility among functions\nMethods, constructors, garbage collection\nStack, heap, shallow / deep copying, garbage collection\nGraphical user Interfaces\nLayout managers\nEvents and action listeners\nModel-view controller architecture\nGUI graphics\nGUI components\nConsole and file I/O\nArrays\nArrays of primitive types\nSimple array algorithms\nArrays of objects\nSorting arrays, 2D arrays\nRecursion"
+  }
+}

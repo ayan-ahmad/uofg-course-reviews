@@ -1,0 +1,204 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI5116"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Computational Game Theory (M)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 5 (SCQF level 11)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "The main goal of this course is to highlight the intriguing interplay between computational thinking and foundational principles of game theory. We investigate the mathematical concepts that model strategic interactions between different selfish entities, and we use the algorithmic theory lens in order to analyse the existence and quality of equilibrium solutions, study their computational hardness, and design mechanisms to incentivize desirable behaviour. The rigorous study of these notions gives students the fundamental tools to predict and analyse the outcomes in complex scenarios, fostering a deeper understanding of the underlying incentive structures and decision-making processes that play an important role in many modern, real-life applications, where the Internet has been established as the main platform for computing and interaction."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "Algorithmics I (H) (or equivalent)"
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": "Algorithmics II (H) (or equivalent) is recommended but not required"
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 1"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "3 hours per week, organized as: one 2-hour lecture per week and one 1-hour tutorial per week"
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "Provide students with a good understanding of the foundations of the field of Computational Game Theory (CGT).\nEngage them into a critical discussion about some of the key game-theoretic concepts used in modern applications within Computer Science and Economics.\nExpose them to the historical and technical interplay between Computer Science, Mathematics, and Economics, as this is realized through the development of CGT.\nGive a glimpse into the motivation, toolbox, and the necessary fundamentals of some key research areas within CGT, after which students should feel comfortable to start following the related work on their own."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course (conditioned on the list of topics chosen) students will be able to:\nCompare and evaluate various important equilibrium notions used in game theory analysis; based on that,\nCreate games that have desirable strategic outcomes.\nEvaluate the computational hardness of finding such equilibria.\nFamiliarize themselves with important results, key mathematical notions, and historical points in the development of (Computational) Game Theory; have a critical understanding of their significance within the field and be able to draw new connections between them.\nEvaluate the loss in performance of a system due to selfish behaviour (“Price of Anarchy”) \nUnderstand the concept of learning dynamics in game-playing, such as best-responses or no-regret learning. Evaluate the performance of such dynamics and use them critically, depending on the application, as an alternative to traditional, static equilibrium concepts."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 45.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 25.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 70.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 30.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Final examination 70%\nTwo take-home assessed exercise sets 15%"
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Verbal feedback on weekly tutorial exercises (given to students in advance) or quizzes. Written feedback on assessed exercise sets."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "April/May"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "90 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Computational Game Theory (M)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Algorithms & Theory"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": "A list of potential topics, together with a corresponding structural organization of the course are given below.\nIntroduction\nNormal-form games\nBasic solution concepts: dominant strategies, pure and mixed Nash equilibria\nMixed Nash Equilibria (MNE)\nQuick introduction to Linear Programming duality\nVon Neumann’s Minimax Theorem\nExistence of MNE in zero-sum games\nExistence of MNE in general games: Nash’s Theorem\nThe Lemke-Howson algorithm\nApproximate MNE; the Lipton-Markakis-Mehta algorithm\nPure Nash Equilibria (PNE)\nPotential games and existence of PNE\nBest-response dynamics\nComplexity of finding PNE: easy and hard congestion games\nLearning Dynamics\nOnline learning and no-regret algorithms\nFictitious Play; Karlin’s conjecture\nNo-Regret learning in zero-sum games\n(Coarse) correlated equilibria\nTotal-search Complexity Classes\nFrom P and NP, to TFNP\nLocal-search and the complexity class PLS\nFixed-point theorems, Sperner’s Lemma, and the complexity class PPAD; the Daskalakis-Goldberg-Papadimitriou theorem \nSocial Choice Theory\nOrdinal and cardinal preferences; von Neumann-Morgenstern utilities\nFairness notions\nVoting; Arrow’s Impossibility theorem\nCake-cutting\nMechanism Design\n(Direct-revelation) mechanisms; truthfulness\nMyerson’s Lemma\nThe VCG mechanism; the Gibbard-Satterthwaite theorem\nRevenue-maximizing auctions\nApproximately optimal auctions; the Bulow-Klemperer theorem\nProphet inequalities"
+  }
+}

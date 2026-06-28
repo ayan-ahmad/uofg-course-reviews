@@ -1,0 +1,204 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI5117"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Extended Reality Interaction (M)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 5 (SCQF level 11)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "Extended Reality Interaction (XRI) will explore the use of Virtual, Augmented, Mixed and Extended Reality (XR) and Spatial Computing from a Computing Science and Human-Computer Interaction perspective. These are technologies with unprecedented capabilities to sense, augment, and entirely alter your perception of reality and present interactive virtual spatial digital content. This course will explore the challenges of designing usable and immersive XR experiences. You will engage with leading computing science research in this area and gain experience with the software tools and development platforms used in practice. This course will give students a foundational understanding of XR technology, and the core components (sensing, tracking, spatial interactions) that drive XR experiences. By the end of the course, students will have an understanding of how to design and develop XR experiences, and be able to reflect on the significant challenges and opportunities this technology presents society."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "Mobile Human Computer Interaction (H or M)"
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 1"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "Two one-hour lectures and one one-hour computer laboratory session per week. Supplemented by asynchronous learning activities (predominantly quizzes, with some online-only lecture video content)."
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "This course will provide a foundational overview of interactive immersive and spatial computing – from the hardware (e.g. XR headsets) and software (e.g. game development tools) that drives such experiences; to the interactions and interfaces we build with it; to the perceptual foundations of such experiences (presence, embodiment, etc); to the challenges posed for designers, practitioners, users, bystanders and wider society. This course will provide students with an understanding of the differences and commonalities between virtual, mixed and augmented reality, and how to design and develop different spatial and immersive computing experiences across the mixed reality continuum. They will also engage with the literature to understand leading edge developments in immersive and spatial computing. Students will have the opportunity to learn about:\nThe history of XR and the metaverse, and the fundamental technological building blocks that immersive and spatial computing experiences rely upon.\nHow to design and develop 3D interactions for spatial computing interfaces, and the techniques that underpin these interfaces.  \nSpecific challenges (e.g. hardware, optics and vision, cybersickness), affordances (e.g. presence, embodiment, perceptual manipulation) and applications (healthcare, entertainment, mobility etc.) of spatial and immersive computing.\nThe cutting-edge emergent “grand challenges” that face science and society in the increasing adoption of these technologies. These will include ethical, legal and social concerns, as well as examining spatial computing for social good, such as supporting accessibility.\nParallel to these activities, throughout the course as part of a group development project, students will design, develop and evaluate an immersive/spatial computing application using industry standard tools.\n\nBy the end of the course, students will be expected to be prepared to use and develop for XR technology both in industry and research, and demonstrate a broad understanding of the field."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course students will be able to:\nExplain the use cases and challenges associated with immersive and spatial computing, and discuss the state-of-the-art and emerging trends.\nCritically analyse a proposed immersive / spatial computing experience, considering its intended usage context (user, platform, hardware, location etc) and grounding in research and best practice.\nDemonstrate an understanding of the key capabilities and underpinning technologies of immersive and spatial computing platforms, in particular around tracking and sensing, optics and perception, input and interactions, locomotion, embodiment and social computing and more.\nPropose and critically assess the design of immersive and spatial computing interactions, applications and experiences, evaluating their usability, utility and acceptance whilst considering the ethical, social, legal, and accessibility challenges posed.\nPrototype and develop software for immersive and spatial computing using modern development tools."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 60.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 60.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 10.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 30.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 0.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Exam (60%) – Assessing ILOs 1-4 by asking students to:\nExplain interaction challenges in a variety of different usage scenarios (ILO1)\nCritically analyse proposed immersive and spatial computing designs in a given usage context (ILO2)\nDemonstrate an understanding of the capabilities and underpinning technologies of immersive and spatial computing (ILO3)\nPropose and justify immersive and spatial computing designs to address a given problem (ILO4).\n\nIndividual Coursework (10%) - A short essay on recent research papers of their choosing from specified XR conferences in the last year (ILO2).\n\nPair/Group Project (30%) - A group software development project, an approach SoCS students are familiar with by this point. A group project will be necessary here both to manage access to lab/hardware facilities, and due to the scope of difficulty of creating an XR application. This is planned to be conducted in pairs initially, having a strong pedagogical foundation in how XR development is done in practice (e.g. one “user” in headset, one “developer” outside headset) and grounded in pair programming practice. \n\nBy undertaking a development project, this will primarily satisfy ILO4/5, and also provide opportunities for students to demonstrate attainment of the other ILOs through their proposed designs and use of the available technologies. This will be made up of a written report, a demonstration of the project, and an assessment of the functioning artifact or prototype produced."
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": null
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "April/May"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "60 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Extended Reality"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["HCI & Interaction Design"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

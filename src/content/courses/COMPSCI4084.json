@@ -1,0 +1,204 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4084"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Programming and Systems Development (H)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 20
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "Provides a short, intensive, hands-on introduction to the software and tools necessary for the MSc programmes in Computing Science: the Java and Python programming languages, associated tools, and the LINUX operating system."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "Acceptance into one of the MSc programmes listed in section 10 below."
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 1"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "Weeks 1-6 of Semester 2 (six weeks)\nTwo hours of lectures and 5 hours of labs (two two-hour labs and one one-hour lab) per week\nMid-term coding test to be taken during one of the scheduled lab sessions.\nFinal coding test to be taken at the end of the semester"
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "To enhance existing skills and practical processes for programming in Java and Python, which are the main languages used in the MSc programme\nTo improve skill at using online information to pick up new languages, APIs or tools\nTo become familiar with common tools needed to build working systems, including repositories, virtual machines and servers.\nTo develop knowledge of the use of the LINUX operating system and experience of using the tools available under LINUX for programming and system administration."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course students will be able to:\nDemonstrate familiarity with the relevant modern programming environments; \nUse the command line and a text editor competently, ideally with experience with a modern IDE; \nDevelop well-structured programs in Java and Python, and be proficient in looking for online help, and be prepared to pick up new skills independently;\nExplain the importance of concise and informative documentation, and use modern documentation tools;\nProvide evidence of program correctness through thorough testing;\nDescribe and use version control processes, and be able to checkout and use a repository (e.g. git);\nLaunch, edit and use Jupyter/Colab notebooks (including ability to work with basic operations on numpy arrays);\nUse basic SQL from Java and Python, and be able to set up a basic server;\nBe able to spin up a Container (e.g. Docker VM (and/or Kubernetes));\nCreating/adapting a basic graphical user interface (give them some exposure to a modern GUI and how to adapt it);\nDescribe the basics of user interaction with the Linux shell, file navigation, system monitoring, printing;\nExplain how to install and configure software under Linux, and be able to write and execute simple Linux shell scripts."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 12.0,
+          "notional_learning_hours": 50.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 30.0,
+          "notional_learning_hours": 80.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 70.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 42.0,
+        "notional_learning_hours": 200.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 0.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 55.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 45.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Intermediate one-hour coding test, worth 15%, arranged in-house\nFinal two-hour coding test, worth 40%, arranged in-house.\nParticipation in team application exercises (tAPP) worth 5%\nThree practical assessed exercises, worth 10%, 15%, 15% (total of 40%)"
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Written feedback on assessed coursework; Verbal feedback during class discussions and laboratory sessions"
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": null
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "0 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Programming Systems"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Programming Languages", "Systems & Architecture"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

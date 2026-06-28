@@ -1,0 +1,207 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4091"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Advanced Networked Systems (H)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "The course aims to give students a deep understanding of the fundamental design, implementation, management, and evaluation principles that govern large-scale, high-speed networked systems. These include algorithmic and implementation techniques for high-speed networking in routers and end-nodes; systems performance measurement and modelling principles; network and system resource management, allocation and engineering schemes; and research and technological advances that drive the development of a converged, global telecommunications medium of the future."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "Networks and Operating Systems (NOSE) 2 (or equivalent)",
+      "Networked Systems H (or equivalent)",
+      "Operating Systems H (or equivalent)",
+      "Systems Programming H (or equivalent)"
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 2"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "3 hours per week – specific day/time TBC"
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "Computer networks have become an integral part of society – we take for granted the ability to transact commerce over the Internet, to store documents online, and that users can avail themselves of a growing set of communication methods, ranging from file sharing to social networking and video conferencing. Moreover, computer networks underpin a lot of recent paradigm-shifting advances in ICT, from Cloud Computing, to Smart Cities and the Internet of Things.\n\nTo support the seamless provision of all these advanced services, computer networks engage a complex set of interconnected systems and components whose design is governed by principles across the spectrum of Computing Science and Engineering: from hardware and software architecture, to protocols and algorithms, to analysis and modelling. \nThis course will therefore adopt a holistic systems thinking instead of the ‘black-box’ thinking that often results from treating concepts (such as, e.g., algorithms, OS, networking) in isolation.\n\n\nThe course will look at ‘network algorithmics’ as an interdisciplinary systems approach to streamlining network stack implementations in routers and end-nodes, and understand the bottlenecks that need to be overcome in order to meet strict performance requirements.\nThe course will cover the importance of high performance in network design and implementation, and understand the need for building networked systems that are on par with ever increasing physical link capacities (you can buy more bandwidth, but cannot buy less delay). In doing so, ways to measure network performance will be explored, and also approaches to evaluating and analysing the performance of networked systems. Students will therefore be able to generalise and reason about the capabilities and limitations of different processing and service models. \nIn addition, the course will look at algorithms and technologies for efficient and fair resource usage, and students will understand the importance of end-to-end protocol design and traffic engineering. For example, students will understand why, in networks, packet loss is not an isolated incident ‘when things go wrong’ but the norm: a mechanism based on which the appropriate feedback loops can be created to ensure that the underlying resources are used fully and shared equally.\nThe course will also look at recent technological and research advances in emerging computer networking technologies and protocols. For example, Data Centre / Cloud networking for achieving full bi-section bandwidth; Software-Defined Networking (SDN) as a transformative paradigm aiming to logically centralise the network control plane; Network Function Virtualisation (NFV) as an approach to embed add-on services on top of connectivity in network infrastructures; Resilient networked systems.\n\n\nBy the end of this course, students will have a deep understanding of the design and implementation principles for building high-performance inter-connected systems, as well as specialist knowledge in advances in computer networking technology. This course will be particularly suitable for students who aspire to successful careers either in systems research, or in diverse industry sectors ranging from global (e.g., Google, Facebook, Amazon) to local (e.g., the banking sector) infrastructure operators, to equipment vendors (e.g., Cisco, Huawei, Ericson) and Internet Service Providers (e.g., BT)."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course students will be able to:\n1.Articulate the key challenges in building high-speed networked systems \n2.Illustrate the design and implementation implications for high-performance networked systems, protocols, and algorithms\n3.Design and conduct experiments over diverse networked infrastructures \n4.Outline and critique advances in networking technology and systems\n5.Deploy and analyse a range of security measures at endpoints and within the network infrastructure"
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 80.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 20.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 0.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Examination 80%, coursework 20%.\n\nStudents are asked to submit a programming-based assessed coursework to implement an advanced networked system concept (e.g., algorithm, experimental design, networked application, performance modelling and evaluation, etc.), embracing practical concepts covered in the course."
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Students are asked to complete a set of simple and modular exercises to familiarise themselves with the practical concepts of the course. They can partly use solutions to these (non-assessed) tasks for their larger assessed programming coursework."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "April/May"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "120 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Advanced Networked Systems (H)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Networking"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": "Resit examinations are only allowed for Masters students."
+  }
+}

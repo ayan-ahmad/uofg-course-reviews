@@ -1,0 +1,206 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4015"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Professional Software Development (H)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "The aims of the course are to: \nIntroduce students to modern software development methods and techniques for building and maintaining large systems;\nPrepare students to apply these methods and techniques presented to them in the context of an extended group-based software development exercise;\nMake the students aware of the professional, social and ethical dimensions of software development; \nInstil in the students a professional attitude towards software development."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "Object Oriented Software Engineering 2 (or equivalent)",
+      "Java Programming 2 (or equivalent)",
+      "Algorithms and Data Structures 2 (or equivalent)"
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": "Systems Programming (H)\nLevel 3 Team Project  (one of either:  Team Project (H), Team Project (H) Minor, Team Project ESE or Team Project 3)"
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Runs Throughout Semesters 1 and 2"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "Weekly full day laboratory in conjunction with Team Project."
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "The aims of the course are to: \nIntroduce students to modern software development methods and techniques for building and maintaining large systems;\nPrepare students to apply these methods and techniques presented to them in the context of an extended group-based software development exercise (Team Project (H)); \nMake the students aware of the professional, social and ethical dimensions of software development; \nInstil in the students a professional attitude towards software development.\nDevelop students’ understanding of sustainability and decarbonisation as related to the topic."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course students will be able to:\nIdentify the main phases of software development and how they are related in contemporary development methods;\nMaintain an existing medium to large-scale system according to supplied requirements (this will include modifying some of the system documentation);\nIdentify and discuss critically professional, social, environmental and ethical issues involved in large-scale software development;\nPlan, organise and schedule a substantial team based project;\nCapture and specify functional and non-functional requirements;\nDesign, specify; implement and test a system which demonstrably meets project requirements;\nMaintain appropriate, clear and accurate documentation;\nUse appropriate QA techniques, including test suite planning;\nUse appropriate configuration management tools and techniques;\nDeliver articulate and informative presentations on project topics;\nCommunicate effectively within the project team;\nWork successfully within a team."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 30.0,
+          "notional_learning_hours": 50.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 50.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 80.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 20.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "This course is taught in conjunction with the Team Project. Practical assessment of material will be undertaken in the Team Project. Assessment of student understanding of the theoretical material presented in PSD (H) will be done through fortnightly class tests (20%) and a final written exam (80%)."
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Students will receive on-going verbal feedback through interactions with the course lecturers during the scheduled laboratories regarding their professional practice as software engineers."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "April/May"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "120 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Prof S/W Development (H)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Software Engineering"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

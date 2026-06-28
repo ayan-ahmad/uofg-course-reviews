@@ -1,0 +1,212 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4016"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Programming Languages (H)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "This course covers the design and implementation of programming languages, introducing techniques for formally specifying the design of programming languages (BNF grammars, typing rules, and operational semantics), metatheory (type soundness), and techniques for implementing typecheckers, interpreters, and code generators for a representative set of core programming languages."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "An introductory object-oriented programming course:",
+      "COMPSCI2001 Introduction to Object-Oriented Programming (BSc / MSci Computing Science / Software Engineering students)",
+      "COMPSCI1031 Object-Oriented Design (Graduate Apprenticeship students)",
+      "An introductory programming course that teaches Java (visiting students)",
+      "An introductory discrete mathematics course:",
+      "COMPSCI2003 Algorithmic Foundations 2 (BSc / MSci Computing Science / Software Engineering students)",
+      "COMPSCI1021 Practical Algorithms (Graduate Apprenticeship students)",
+      "An introductory discrete mathematics course that teaches predicate logic and inductively-defined structures (visiting students / joint honours students).",
+      "This course is for Honours students only."
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 2"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "In-person delivery. Two one-hour lectures and a one-hour lab each week."
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "This course aims to introduce students to the concepts behind the design of programming languages in a variety of different paradigms (e.g., functional, object-oriented, and imperative), and to equip students with the tools needed to design and implement a programming language. Students will learn how to read and write formal descriptions of programming languages, including rigorous treatments of functions, variable binding, scoping, and variable substitution. Based on the formal descriptions, students will learn how to implement a typechecker, interpreter, and code generator for various representative core programming languages, and understand how the property of type soundness ensures that a program will not produce errors when it is run. \n\nAfter completing the course, students should be prepared to undertake project work in programming language design and implementation."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of the course students will be able to:"
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 40.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 40.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 70.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 30.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Examination 70%, programming assignment 25%, weekly quizzes 5%."
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Weekly lab exercises; verbal feedback given by lecturer and lab demonstrators."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "April/May"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "90 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Programming Languages (H)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Programming Languages"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI5006"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Constraint Programming (M)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 5 (SCQF level 11)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "We cover Constraint Programming and its use in solving a number of combinatorial problems.  We also cover the underlying technology, and related combinatorial optimisation approaches."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "For MSc students - Honours degree in Computing ScienceFor Honours students - 3rd year Computing ScienceFor MSci students - 4th year Computing Science"
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 1"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "3 hours per week"
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "To enable students to implement constraint programming solutions to a number of combinatorial problems using a state of the art constraint programming toolkit.To give students a critical appreciation of the fundamental concepts of constraint satisfaction and constraint programming, and the ability to compare to related search approaches.To give the student an appreciation of, and exposure to, commercial applications and the research directions in constraint programming.To understand the basic mechanics of a constraint programming toolkit (such that they might implement such a toolkit)."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course students will be able to:\n1: Model complex problems (such as scheduling problems, design and configuration problems) as constraint programs, using a state of the art constraint programming toolkit;\n2: Implement the algorithms for achieving constraint propagation, and critically appreciate the costs and benefits of different levels of consistency;\n3: Demonstrate extensive, detailed and critical knowledge and understanding of constraint satisfaction from a theoretical point of view, and be able to compare to other combinatorial approaches;\n4: Implement, the search algorithms typically used in constraint programming;\n5: Use various variable and value ordering heuristics;\n6: Discuss current issues and research direction in constraint programming."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 30.0,
+          "notional_learning_hours": 50.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 0.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 50.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 50.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Summative coursework will consist of multiple-choice quizzes (20% within the ‘set exercise’ category), set coding tasks with descriptions of results (30% within the ‘set exercise’ category), and a research-focussed project output (e.g. a research-style poster)."
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "None.  Feedback available on summative coursework."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": null
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "0 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Constraint Programming (M)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Algorithms & Theory"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

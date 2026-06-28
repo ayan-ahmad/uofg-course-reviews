@@ -1,0 +1,205 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI5093"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Secured Software Engineering (M)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 5 (SCQF level 11)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "This course covers secure software engineering methods and techniques. It explores all aspects of the software engineering lifecycle that are directly applicable to designing systems where security and/or privacy is critical."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "Prerequisites are:",
+      "Object Oriented Software Engineering (COMPSCI2008) or its equivalent. Visiting students would need a firm background in object oriented programming such as Java."
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 2"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "2 hours of lecture time and 1 hour of tutorial or practical work, per week"
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "Broadly, this course aims to offer practical knowledge on engineering secure systems across the software engineering life-cycle. These include requirements, design, implementation, testing and maintenance. Topics covered include secure design principles and patterns, eliciting security requirements and uncovering security flaws in software design. This is in addition to fundamental privacy engineering concepts such as Privacy-by-Design and other the conceptual framework for understanding privacy in software. This course also devotes a significant time to discussing well known secure design solutions including architectural patterns and design patterns focusing on security/privacy countermeasures. We discuss information-flow analysis and evaluation as mechanisms to assess the effectiveness of the secure design solutions implemented in source code.\n\nThe course will help prepare students to apply software security and privacy techniques in industry, as well as to pursue research in software engineering, security and privacy."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course students will be able to:\nDescribe the life cycle for developing secure software systems.\nApply lightweight refactoring methods to balance trade-offs between competing security, privacy and functionality quality measures in software.\nVerify the effectiveness of a secure software design solution.\nExplore general approaches to privacy engineering and Privacy-by-Design paradigm in software.\nBuild a simple privacy justificatory framework for justifying the extent a given software aligns with data protection regulations (e.g GDPR, HIPPA, etc.).\nApply secure software design principles to a range of application domains and case studies such as social networks, internet of things, mobile computing, ecommerce, service oriented architectures, multi-agent and autonomous systems."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 40.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 5.0,
+          "notional_learning_hours": 15.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 5.0,
+          "notional_learning_hours": 15.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 80.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 20.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "80% for the end of year exam, 20% for assessed coursework"
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Individual written and verbal feedback will be provided on assessed exercises.Generic feedback will be provided to the class, on the assessed exercises, during lecture time. Generic feedback will be provided to the class, via Moodle, on the final exam."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "April/May"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "90 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Secured Software Eng (M)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Security", "Software Engineering"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": "RESIT EXAMINATIONS ARE ALLOWED FOR MASTERS STUDENTS\nRESIT EXAMINATIONS ARE NOT ALLOWED FOR HONOURS STUDENTS"
+  }
+}

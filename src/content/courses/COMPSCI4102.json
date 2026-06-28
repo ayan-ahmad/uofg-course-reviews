@@ -1,0 +1,207 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4102"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Software Product Release Engineering (H)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "This course gives students the opportunity to learn about and practice advanced principles, methods and tools in Software Engineering, and discuss the engineering decisions and trade-offs to be made when releasing software products. The course is intended for students who have experience of software development through a summer internship or similar. The course covers technical skills that are needed for designing, implementing, and maintaining releases of software products. The course also covers approaches and trade-offs needed for operating software releases at scale, current “shift-left” approaches, and operating models like DevOps, etc."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "Professional Software Development (H) (or equivalent)",
+      "Java Programming 2 (or equivalent)",
+      "Object Oriented Software Engineering 2 (or equivalent)",
+      "Software Engineering Summer Placement (H) (or equivalent) (an unassessed placement may be acceptable, subject to approval of the course coordinator)."
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": "Software Product Release Engineering (M)"
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 2"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "1 hour of lectures and 2 hours of laboratory time per week in semester 2."
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "To introduce advanced principles, methods and approaches in Software Product Release Engineering,\nTo introduce techniques for effective maintenance and evolution of working software, \nTo expose students to the practicalities and reality of software engineering in industry."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course students will be able to:\nExplain a range of advanced practices in software product release engineering including change management, continuous integration and -delivery, software evolution, build automation, and software security;\nReflect critically on the design decisions and trade-offs involved in building and releasing long-lived software products;\nApply and adapt techniques for planning and maintaining up-time and maintenance cycles;\nUnderstand and apply known stability patterns to maintain scaling and software release availability targets;\nDesign, plan, implement, deploy, maintain and evolve software  releases;\nBe aware of the limitations of existing software engineering practices in large scale systems development."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 40.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 40.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 50.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 0.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 40.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 60.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 0.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Examination 0%, Coursework (100%).  \n\nStudents will receive lectures during semester 2 covering theoretical material. Each lecture will feature assigned reading and students will be quizzed.  Each week will also include a 2-hour lab session where students will apply the theory. Students will build, deploy, and maintain a software API end-point throughout the course. Each week the students will be awarded marks for their API feature availability and up-time. Development of the API will include automated and manual review of submissions to the version-control system, and marks will be awarded based on these. \n\nThe coursework will comprise the quizzes, the feature- and up-time checks, and the version-control submissions.\n\nAs the course is focused on practical, real-world trade-offs involved in planning and deploying software releases, the course is evaluated through hands-on reviews rather than examinations of theory."
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Continual feedback to students during weekly laboratory sessions."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": null
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "0 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "SE Release Practices (H)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Software Engineering"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

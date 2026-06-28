@@ -1,0 +1,208 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4011"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Operating Systems (H)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "To introduce the students to the styles of coding required with an OS; \nTo give a thorough presentation of the contents of a traditional OS, including the key abstractions;\nTo show the range of algorithms and techniques available for specific OS problems, and the implications of selection specific algorithms for application behaviour; \nTo develop an integrated understanding of what the computer is doing, from a non-naive view of hardware to the behaviour of multi-threaded application processes; present the alternatives and clarify the trade-offs that drive OS and hardware design."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "Networks and Operating Systems Essentials 2 (or equivalent)",
+      "Object Oriented Software Engineering 2 (or equivalent)",
+      "Java Programming 2 (or equivalent)",
+      "Algorithms and Data Structures 2 (or equivalent)",
+      "This course is only available to Honours students."
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": "Systems Programming (H) (required) \nNetworked Systems (H) (recommended and optional)"
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 2"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "Two one-hour lectures and one one-hour tutorial/lab session per week."
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "To introduce the students to the styles of coding required with an OS; \nTo give a thorough presentation of the contents of a traditional OS, including the key abstractions;\nTo show the range of algorithms and techniques available for specific OS problems, and the implications of selection specific algorithms for application behaviour; \nTo develop an integrated understanding of what the computer is doing, from a non-naive view of hardware to the behaviour of multi-threaded application processes; present the alternatives and clarify the trade-offs that drive OS and hardware design."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course, students will be able to: \nUse current operating system terminology in correctly explaining the functions of an OS;\nRelate operating system functions to computer hardware;\nDescribe the mechanisms of interrupts, context switching and address translation;\nDescribe the relation of operating system functions to language run-time systems;\nExplain the significance of concurrency in operating system design;\nDemonstrate an understanding of the semantics of operating system functions, including scheduling and memory management, by being able to describe their functioning;\nImplement simple operating system components and basic algorithms (CPU scheduling, deadlock detection and avoidance algorithms);\nCritique designs and implementations of OS components, eg the Unix file system;\nIllustrate the influence of operating system functions on application behaviour;\nCompare and contrast alternative approaches to hardware components such as the CPU and bus;\nEngineer medium-sized (multi-file) software components for integration into larger C and/or Java programs."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 60.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 5.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 35.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Examination (60%); Practical Exercises (20%) involving intensive C programming; thorough evaluation of understanding of principles and techniques via assessed questions (15%); presentation of studied materials, assessed on content , delivery and response to questions (5%)"
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "N/A"
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "April/May"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "90 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Operating Systems (H)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Systems & Architecture"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

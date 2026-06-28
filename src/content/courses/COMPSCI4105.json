@@ -1,0 +1,205 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4105"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Quantum Computing H"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "This course is an introduction to quantum computing, covering theory and practice (through the use of simulation software). The main topics are: quantum information processing; quantum protocols for communication (teleportation, dense coding, error correction) and cryptography (key distribution); quantum algorithms (Deutsch’s algorithm, Grover’s algorithm, overview of Shor’s algorithm); quantum annealing"
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "Algorithmic Foundations 2 (or equivalent)",
+      "Data Fundamentals H (or equivalent)"
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": "PHYS5039 (Quantum Information)"
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 2"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "2 hours of lecture time and 1 hour of tutorial or practical work, per week"
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "The aim of the course is to introduce the theory and practice of quantum computing."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course students will be able to:\nExplain the principles of quantum computation and the characteristics that distinguish it from classical computation.\nCalculate the effect of quantum protocols and algorithms according to the laws of Hilbert spaces.\nUse the notation of quantum circuit diagrams to define and understand quantum protocols and algorithms.\nUnderstand specific quantum algorithms and protocols and be able to evaluate them on example data: Deutsch’s algorithm, Grover’s algorithm, quantum teleportation, quantum dense coding, the BB84 key distribution protocol, at least one error-correction protocol.\nExpress and work with quantum algorithms and protocols in a standard simulation environment, e.g. Qiskit\nExplain the principles of quantum annealing and its key differences from algorithmic quantum computing.\nUse a standard quantum annealing framework (e.g. D-Wave) to model and solve standard optimisation problems."
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 20.0,
+          "notional_learning_hours": 40.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 5.0,
+          "notional_learning_hours": 15.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 15.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 5.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 80.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 0.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 20.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "80% for the end-of-year exam\n20% for assessed coursework, which is likely to be separated into two smaller assignments\n\nThe assessed coursework will assess ILOs 5 and 7\nThe exam will assess ILOs 1, 2, 3, 4 and 6"
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Individual written feedback will be provided on the assessed exercises.\nGeneric feedback will be provided to the class, on the assessed exercises, during lecture time.\nGeneric feedback will be provided to the class, via Moodle, on the final exam."
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": "April/May"
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "90 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Quantum Computing"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Algorithms & Theory"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

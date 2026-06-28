@@ -1,0 +1,204 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4100"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Computing Science Education Theory and Practice (H)"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "Learning lies at the heart of computing science and software engineering, whether picking up a new language or library, helping others in a team, or researching or adopting new computational paradigms.  Although computing has been adopted in education systems from primary level worldwide, there are too few who understand core principles of both the subject and its learning and teaching. This course introduces you to computing specific education theory and practice, of value to you as a developer or researcher, or as the starting point for a career in CS education. The course requires regular in person attendance."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "Visiting students should be enrolled on a CS programme."
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": null
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": null
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 2"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "One two-hour seminar/discussion session per week, with some pre-reading."
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "To develop a broad understanding of CS education principles, practices and challenges in relation to personal learning of the subject and to the development and critique of effective CS learning and teaching activities."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course students will be able to:\nName and describe core theories, frameworks, and practices underpinning CS education\nChoose and apply techniques appropriate for given CS learning and teaching scenarios\nDesign educational material suitable for use in given CS education contexts\nAnalyse and evaluate CS education experiences and materials"
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 20.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 60.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 20.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 0.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 20.0
+        },
+        {
+          "method": "Report",
+          "percentage": 15.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 35.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 0.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 10.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 20.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "Set exercises, e.g., quizzes on pre-reading/videos (20%)\nWritten Essay analysing prior personal educational experiences (20%)\nProject on the design of educational exercises/resources developed as a result of demand from teachers within or outside the School (Group-based) (35%) \nWritten Report on the pedagogical theories and principles applied to the project with reasoned argumentation and reflection (15%)\nPresentation (10%)"
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Quiz answers, essay and portfolio assessments above will all contain feedback elements\nSeminar discussion and tutorial questions with feedback based around learning and teaching designs and scenarios"
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": null
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "0 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "CSE Theory & Practice (H)"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": false
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Professional & Research"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": null
+  }
+}

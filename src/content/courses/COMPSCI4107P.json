@@ -1,0 +1,206 @@
+{
+  "course_code": {
+    "label": "Course Code",
+    "value": "COMPSCI4107P"
+  },
+  "course_title": {
+    "label": "Course Title",
+    "value": "Data Product Engineering H"
+  },
+  "academic_level": {
+    "label": "Academic Level",
+    "value": "Level 4 (SCQF level 10)"
+  },
+  "credits": {
+    "label": "Credits",
+    "value": 10
+  },
+  "short_description_of_the_course": {
+    "label": "Short Description of the Course",
+    "value": "In this course, students will learn the process for how to design, build, test, deploy, maintain, and monitor scalable and robust data products using the Data Product Life Cycle (DPLC). Students will gain hands-on experience working with datasets and use cases, collaborating in teams, and applying agile methodologies to deliver data products that meet the needs of real world stakeholders. The course will cover the entire DPLC process, including experimentation and productization, with a focus on reliability, fault tolerance, scalability, deployment, and meeting regulatory requirements. The course will prepare students for careers in data & digital technology, equipping them with the knowledge and skills required to work in cross-functional teams and navigate complex regulatory requirements."
+  },
+  "requirements_of_entry": {
+    "label": "Requirements of Entry",
+    "value": [
+      "Algorithmic Foundations 2 (or equivalent) is recommended but not required",
+      "Data Fundamentals H (or equivalent)",
+      "Professional Software Development (or equivalent)"
+    ]
+  },
+  "co_requisites": {
+    "label": "Co-requisites",
+    "value": "Machine Learning H (or equivalent) is recommended but not required"
+  },
+  "excluded_courses": {
+    "label": "Excluded Courses",
+    "value": "NA"
+  },
+  "typically_offered": {
+    "label": "Typically offered",
+    "value": "Semester 1"
+  },
+  "timetable_and_length_and_frequency_of_teaching_sessions": {
+    "label": "Timetable and length and frequency of teaching sessions",
+    "value": "1 hour lecture per week and 2 hours of practical labs per week"
+  },
+  "course_aims": {
+    "label": "Course Aims",
+    "value": "To ensure the students learn about building large scale collaborative data products in an enterprise environment. The course aims to focus on machine learning and large language model development at scale."
+  },
+  "intended_learning_outcomes_of_course": {
+    "label": "Intended Learning Outcomes of Course",
+    "value": "By the end of this course students will be able to:\n\nArticulate the phases, workflow and key outputs of the data product life-cycle\nIdentify when and how to experiment to prove or disprove a hypothesis\nExplain how to productionise a successful hypothesis as part of a team across the enterprise\nIdentify, describe and perform the key roles in the Data Product Life-cycle / Data Product Engineering\nJustify data product design choices aligned with business and regulatory requirements"
+  },
+  "learning_and_teaching_methods": {
+    "label": "Learning and Teaching Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Lecture",
+          "formal_contact_hours": 10.0,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Seminar",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Tutorial",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Project Supervision",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Demonstration",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Practical Classes and Workshops",
+          "formal_contact_hours": 18.0,
+          "notional_learning_hours": 36.0
+        },
+        {
+          "method": "Supervised time in studio / Workshop",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Fieldwork",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "External Visits",
+          "formal_contact_hours": 2.0,
+          "notional_learning_hours": 4.0
+        },
+        {
+          "method": "Work Based Learning",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Guided Independent Study",
+          "formal_contact_hours": null,
+          "notional_learning_hours": 30.0
+        },
+        {
+          "method": "Placement",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        },
+        {
+          "method": "Year Abroad",
+          "formal_contact_hours": 0.0,
+          "notional_learning_hours": 0.0
+        }
+      ],
+      "total": {
+        "formal_contact_hours": 30.0,
+        "notional_learning_hours": 100.0
+      }
+    }
+  },
+  "summative_assessment_methods": {
+    "label": "Summative Assessment Methods",
+    "value": {
+      "rows": [
+        {
+          "method": "Written Exam",
+          "percentage": 0.0
+        },
+        {
+          "method": "Written Assignment, including Essay",
+          "percentage": 0.0
+        },
+        {
+          "method": "Report",
+          "percentage": 0.0
+        },
+        {
+          "method": "Dissertation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Portfolio",
+          "percentage": 50.0
+        },
+        {
+          "method": "Project Output (Other than dissertation)",
+          "percentage": 40.0
+        },
+        {
+          "method": "Oral Assessment & Presentation",
+          "percentage": 0.0
+        },
+        {
+          "method": "Practical Skills Assessment",
+          "percentage": 0.0
+        },
+        {
+          "method": "Set Exercise",
+          "percentage": 10.0
+        }
+      ],
+      "total_percentage": 100.0
+    }
+  },
+  "description_of_summative_assessment": {
+    "label": "Description of Summative Assessment",
+    "value": "10% Weekly in class quiz to cover knowledge.\n50% Repeated single slide presentation on different aspects of the product journey based on weekly topics.  *** Each person delivers one slide to be assessed on (developed slide collaboratively) *** \nDevelopment of a hypothesis driven experiment\nPresentation of the rationale for the exploring the hypothesis of business benefits (quality improvement, risk reduction, cost savings/avoidance, increased revenue/margin, customer satisfaction)\nLink to importance of non-functional criteria\nAssess both vision/roadmap and execution towards this in implementation and link to non-functional considerations (fault tolerance, data privacy, security…)\n40% On the product itself.  \nAssume a dashboard to be developed  \nPower BI/Tableaux/Cloud deployment"
+  },
+  "formative_assessment_feedback": {
+    "label": "Formative Assessment & Feedback",
+    "value": "Continuous feedback from real world stakeholders"
+  },
+  "examination_diet": {
+    "label": "Examination Diet",
+    "value": null
+  },
+  "total_exam_duration": {
+    "label": "Total Exam Duration",
+    "value": "0 minutes"
+  },
+  "short_title": {
+    "label": "Short Title",
+    "value": "Data Product Engineering"
+  },
+  "independent_work": {
+    "label": "Independent Work",
+    "value": true
+  },
+  "categories": {
+    "label": "Categories",
+    "value": ["Data & Databases", "Software Engineering"]
+  },
+  "additional_relevant_information": {
+    "label": "Additional Relevant Information",
+    "value": "This course is to be developed within the scope of a Royal Academy of Engineering funded Visiting Professorship (Andrew McDonald 2023-2026)."
+  }
+}
