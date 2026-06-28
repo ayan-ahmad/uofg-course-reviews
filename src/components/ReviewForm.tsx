@@ -99,7 +99,7 @@ export default function ReviewForm({ courseCode, onSubmitted }: Props) {
       <div className="mb-5 flex flex-col gap-4">
         {RATING_LABELS.map(({ key, label }) => (
           <div key={key} className="flex items-center justify-between gap-4">
-            <span className="min-w-[140px] text-sm text-ink-secondary">{label}</span>
+            <span className="min-w-35 text-sm text-ink-secondary">{label}</span>
             <StarSelector value={ratings[key]} onChange={(v) => setRating(key, v)} />
           </div>
         ))}
@@ -111,7 +111,7 @@ export default function ReviewForm({ courseCode, onSubmitted }: Props) {
         placeholder="Share your experience (optional)…"
         rows={4}
         maxLength={2000}
-        className="mb-4 w-full resize-none rounded-md border border-border bg-white px-3 py-2 text-sm text-ink placeholder:text-ink-subtle focus:border-accent focus:outline-none"
+        className="mb-4 w-full resize-none rounded-md border border-border bg-white px-3 py-2 text-sm text-ink-subtle placeholder:text-ink-subtle focus:border-accent focus:outline-none"
       />
 
       {error && <p className="mb-3 text-sm text-red-600">{error}</p>}
