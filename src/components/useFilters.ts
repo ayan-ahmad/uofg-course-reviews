@@ -28,7 +28,7 @@ export const emptyFilters: Filters = {
   levels: [],
   offered: [],
   categories: [],
-  minCredits: 0,
+  minCredits: 10,
   minRating: 0,
   assessmentFilter: defaultAssessmentFilter,
 };
@@ -130,7 +130,7 @@ export function useFilters(courses: Course[], ratings: CourseRatings = {}) {
     filters.levels.length +
     filters.offered.length +
     filters.categories.length +
-    (filters.minCredits > 0 ? 1 : 0) +
+    (filters.minCredits > 10 ? 1 : 0) +
     (filters.minRating > 0 ? 1 : 0) +
     (filters.search ? 1 : 0) +
     assessmentActive;

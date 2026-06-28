@@ -158,18 +158,6 @@ export default function FilterPanel({
 
       <Section label="Minimum credits">
         <ul className="flex flex-col gap-1.5">
-          <li>
-            <label className="flex cursor-pointer items-center gap-2 text-sm text-ink-secondary">
-              <input
-                type="radio"
-                name="minCredits"
-                checked={filters.minCredits === 0}
-                onChange={() => setFilters((f) => ({ ...f, minCredits: 0 }))}
-                className="h-4 w-4 accent-accent"
-              />
-              Any
-            </label>
-          </li>
           {creditOptions.map((v) => (
             <li key={v}>
               <label className="flex cursor-pointer items-center gap-2 text-sm text-ink-secondary">
