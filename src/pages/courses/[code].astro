@@ -25,6 +25,7 @@ const c = {
   requirements: (d.requirements_of_entry.value as (string | null)[]).filter(Boolean) as string[],
   coRequisites: d.co_requisites.value,
   excludedCourses: d.excluded_courses.value,
+  learningMethods: d.learning_and_teaching_methods.value,
   assessment: d.summative_assessment_methods.value,
   assessmentDescription: d.description_of_summative_assessment.value,
   examinationDiet: d.examination_diet.value,
@@ -37,6 +38,20 @@ const assessmentItems = c.assessment.rows.filter(row => row.percentage > 0).sort
   label: row.method,
   pct: row.percentage,
 }));
+
+const teachingPalette = ['#7c3aed', '#db2777', '#dc2626', '#ea580c', '#ca8a04', '#16a34a', '#0891b2'];
+type TeachingRow = { method: string; formal_contact_hours: number | null; notional_learning_hours: number };
+const teachingRows: TeachingRow[] = c.learningMethods.rows;
+const contactTotal: number = c.learningMethods.total.formal_contact_hours;
+const notionalTotal: number = c.learningMethods.total.notional_learning_hours;
+const contactItems = teachingRows
+  .filter(r => r.formal_contact_hours && r.formal_contact_hours > 0)
+  .sort((a, b) => (b.formal_contact_hours ?? 0) - (a.formal_contact_hours ?? 0))
+  .map((r, i) => ({ label: r.method, hours: r.formal_contact_hours as number/10, pct: Math.round(((r.formal_contact_hours as number) / contactTotal) * 100), color: teachingPalette[i % teachingPalette.length] }));
+const notionalItems = teachingRows
+  .filter(r => r.notional_learning_hours > 0)
+  .sort((a, b) => b.notional_learning_hours - a.notional_learning_hours)
+  .map((r, i) => ({ label: r.method, hours: r.notional_learning_hours/10, pct: Math.round((r.notional_learning_hours / notionalTotal) * 100), color: teachingPalette[i % teachingPalette.length] }));
 
 function prose(text: string) {
   return text.split('\n').filter((l) => l.trim());
@@ -104,6 +119,51 @@ function prose(text: string) {
             {prose(c.outcomes).map((line) => (
               <p class="mb-2 text-sm leading-relaxed text-ink-secondary">{line}</p>
             ))}
+          </section>
+
+          <!-- Learning and Teaching Methods -->
+          <section>
+            <h2 class="mb-3 text-sm font-semibold uppercase text-ink-muted">Learning &amp; Teaching (Per Week)</h2>
+
+            {contactItems.length > 0 && (
+              <div class="mb-4">
+                <p class="mb-2 text-xs text-ink-subtle">Contact hours - assumed to mean {contactTotal}h total scheduled with a lecturer</p>
+                <div class="mb-2 flex h-3.5 overflow-hidden rounded border border-border">
+                  {contactItems.map((it) => (
+                    <div title={`${it.label} — ${it.hours}h`} style={`width:${it.pct}%;background:${it.color}`} />
+                  ))}
+                </div>
+                <div class="flex flex-wrap gap-x-4 gap-y-1">
+                  {contactItems.map((it) => (
+                    <span class="flex items-center gap-1.75 text-[13px] text-ink-secondary">
+                      <span class="inline-block h-2.5 w-2.5 shrink-0 rounded-sm" style={`background:${it.color}`} />
+                      <span>{it.label}</span>
+                      <span class="font-mono text-ink-muted">{it.hours}h</span>
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {notionalItems.length > 0 && (
+              <div class={contactItems.length > 0 ? 'border-t border-border pt-4 mb-4' : 'mb-4'}>
+                <p class="mb-2 text-xs text-ink-subtle">Notional hours - assumed to mean {notionalTotal}h total including self-study &amp; independent work</p>
+                <div class="mb-2 flex h-3.5 overflow-hidden rounded border border-border">
+                  {notionalItems.map((it) => (
+                    <div title={`${it.label} — ${it.hours}h`} style={`width:${it.pct}%;background:${it.color}`} />
+                  ))}
+                </div>
+                <div class="flex flex-wrap gap-x-4 gap-y-1">
+                  {notionalItems.map((it) => (
+                    <span class="flex items-center gap-1.75 text-[13px] text-ink-secondary">
+                      <span class="inline-block h-2.5 w-2.5 shrink-0 rounded-sm" style={`background:${it.color}`} />
+                      <span>{it.label}</span>
+                      <span class="font-mono text-ink-muted">{it.hours}h</span>
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
           </section>
 
           <!-- Assessment -->
