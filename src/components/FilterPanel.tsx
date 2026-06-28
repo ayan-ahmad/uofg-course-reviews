@@ -183,7 +183,7 @@ export default function FilterPanel({
         />
       </Section>
 
-      <Section label="Category">
+      <Section label="Unoffical Category">
         <CheckList
           options={categoryOptions}
           selected={filters.categories}
