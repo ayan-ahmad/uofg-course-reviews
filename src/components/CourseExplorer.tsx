@@ -12,6 +12,7 @@ export type Course = {
   description: string;
   typicallyOffered: string;
   categories: string[];
+  assessmentMethods: { method: string; percentage: number }[];
 };
 
 export default function CourseExplorer({ courses }: { courses: Course[] }) {

@@ -13,6 +13,9 @@ const courses = entries.map((e) => ({
   description: e.data.short_description_of_the_course.value,
   typicallyOffered: e.data.typically_offered.value,
   categories: e.data.categories.value,
+  assessmentMethods: e.data.summative_assessment_methods.value.rows.filter(
+    (r) => r.percentage > 0,
+  ),
 }));
 ---
 

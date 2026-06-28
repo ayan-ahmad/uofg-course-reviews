@@ -1,5 +1,8 @@
 import { useState } from "react";
 import type { Filters } from "./useFilters";
+import { FilterPie } from "./AssessmentPie";
+import { GROUPS, ASSESSMENT_COLORS } from "@/lib/assessment";
+import type { AssessmentGroup } from "@/lib/assessment";
 
 type Props = {
   filters: Filters;
@@ -54,6 +57,63 @@ function StarPicker({
   );
 }
 
+function AssessmentSlider({
+  group,
+  min,
+  max,
+  onMinChange,
+  onMaxChange,
+}: {
+  group: AssessmentGroup;
+  min: number;
+  max: number;
+  onMinChange: (v: number) => void;
+  onMaxChange: (v: number) => void;
+}) {
+  return (
+    <div className="mb-4">
+      <div className="mb-1.5 flex items-center justify-between">
+        <span className="flex items-center gap-1.5 text-xs font-medium text-ink-secondary">
+          <span
+            className="h-2 w-2 rounded-full shrink-0"
+            style={{ backgroundColor: ASSESSMENT_COLORS[group] }}
+          />
+          {group}
+        </span>
+        <span className="text-xs text-ink-muted tabular-nums">
+          {min}–{max}%
+        </span>
+      </div>
+      <div className="space-y-1">
+        <div className="flex items-center gap-2">
+          <span className="w-6 text-right text-[10px] text-ink-subtle">min</span>
+          <input
+            type="range"
+            min={0}
+            max={100}
+            step={5}
+            value={min}
+            onChange={(e) => onMinChange(Math.min(Number(e.target.value), max))}
+            className="flex-1 accent-accent"
+          />
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="w-6 text-right text-[10px] text-ink-subtle">max</span>
+          <input
+            type="range"
+            min={0}
+            max={100}
+            step={5}
+            value={max}
+            onChange={(e) => onMaxChange(Math.max(Number(e.target.value), min))}
+            className="flex-1 accent-accent"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function FilterPanel({
   filters,
   setFilters,
@@ -63,6 +123,18 @@ export default function FilterPanel({
   creditOptions,
   categoryOptions,
 }: Props) {
+  const totalMin = GROUPS.reduce((sum, g) => sum + filters.assessmentFilter[g].min, 0);
+
+  function setAssessmentGroup(group: AssessmentGroup, key: "min" | "max", value: number) {
+    setFilters((f) => ({
+      ...f,
+      assessmentFilter: {
+        ...f.assessmentFilter,
+        [group]: { ...f.assessmentFilter[group], [key]: value },
+      },
+    }));
+  }
+
   return (
     <div className="flex flex-col gap-6">
       <Section label="Search">
@@ -137,6 +209,51 @@ export default function FilterPanel({
           selected={filters.offered}
           onToggle={(v) => toggle("offered", v)}
         />
+      </Section>
+
+      <Section label="Assessment makeup">
+        <div className="mb-4 flex items-center gap-4">
+          <FilterPie filter={filters.assessmentFilter} size={60} />
+          <div className="flex flex-col gap-1.5">
+            {GROUPS.map((g) => (
+              <span key={g} className="flex items-center gap-1.5 text-xs text-ink-muted">
+                <span
+                  className="h-2 w-2 rounded-full shrink-0"
+                  style={{ backgroundColor: ASSESSMENT_COLORS[g] }}
+                />
+                {g}
+              </span>
+            ))}
+            <span className="flex items-center gap-1.5 text-xs text-ink-muted">
+              <span className="h-2 w-2 rounded-full flex-shrink-0 bg-border" />
+              Flexible
+            </span>
+          </div>
+        </div>
+
+        {totalMin > 100 && (
+          <p className="mb-3 rounded-md bg-badge px-2 py-1.5 text-xs text-ink-secondary">
+            Combined minimums exceed 100% — no courses can match.
+          </p>
+        )}
+
+        {GROUPS.map((group) => {
+          const { min, max } = filters.assessmentFilter[group];
+          return (
+            <AssessmentSlider
+              key={group}
+              group={group}
+              min={min}
+              max={max}
+              onMinChange={(v) => setAssessmentGroup(group, "min", v)}
+              onMaxChange={(v) => setAssessmentGroup(group, "max", v)}
+            />
+          );
+        })}
+
+        <p className="text-[10px] text-ink-subtle leading-snug">
+          Pie shows minimum requirements; gray is flexible.
+        </p>
       </Section>
     </div>
   );

@@ -1,5 +1,6 @@
 import StarRating from "./StarRating";
 import type { Course } from "./CourseExplorer";
+import { CoursePie } from "./AssessmentPie";
 
 type Props = {
   course: Course;
@@ -19,13 +20,16 @@ export default function CourseCard({ course: c, rating }: Props) {
         <span className="font-mono text-xs text-accent">
           {c.code}
         </span>
-        <span
-          className={`rounded-full border border-border px-2 py-0.5 text-xs text-ink-muted ${
-            c.credits === 20 ? "bg-badge" : ""
-          }`}
-        >
-          {c.credits} credits
-        </span>
+        <div className="flex items-center gap-2">
+          <CoursePie rows={c.assessmentMethods} size={22} />
+          <span
+            className={`rounded-full border border-border px-2 py-0.5 text-xs text-ink-muted ${
+              c.credits === 20 ? "bg-badge" : ""
+            }`}
+          >
+            {c.credits} credits
+          </span>
+        </div>
       </div>
       <h3 className="mb-1 text-base font-semibold leading-snug">{c.title}</h3>
       <p className="mb-2 text-xs text-ink-muted">

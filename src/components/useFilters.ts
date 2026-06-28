@@ -1,5 +1,15 @@
 import { useState, useEffect, useMemo } from "react";
 import type { Course } from "./CourseExplorer";
+import { groupAssessment, GROUPS } from "@/lib/assessment";
+import type { AssessmentGroup } from "@/lib/assessment";
+
+export type AssessmentFilter = Record<AssessmentGroup, { min: number; max: number }>;
+
+const defaultAssessmentFilter: AssessmentFilter = {
+  Exam: { min: 0, max: 100 },
+  Coursework: { min: 0, max: 100 },
+  Practical: { min: 0, max: 100 },
+};
 
 export type Filters = {
   search: string;
@@ -8,6 +18,7 @@ export type Filters = {
   categories: string[];
   minCredits: number;
   minRating: number;
+  assessmentFilter: AssessmentFilter;
 };
 
 const STORAGE_KEY = "course-explorer-filters";
@@ -19,6 +30,7 @@ export const emptyFilters: Filters = {
   categories: [],
   minCredits: 0,
   minRating: 0,
+  assessmentFilter: defaultAssessmentFilter,
 };
 
 export type CourseRatings = Record<string, { overall: number; count: number }>;
@@ -61,6 +73,10 @@ export function useFilters(courses: Course[], ratings: CourseRatings = {}) {
 
   const filtered = useMemo(() => {
     const q = filters.search.trim().toLowerCase();
+    const assessmentActive = GROUPS.some(
+      (g) => filters.assessmentFilter[g].min > 0 || filters.assessmentFilter[g].max < 100,
+    );
+
     return courses.filter((c) => {
       if (
         q &&
@@ -84,6 +100,14 @@ export function useFilters(courses: Course[], ratings: CourseRatings = {}) {
         const r = ratings[c.code];
         if (!r || r.overall < filters.minRating) return false;
       }
+      if (assessmentActive) {
+        const groups = groupAssessment(c.assessmentMethods);
+        for (const group of GROUPS) {
+          const { min, max } = filters.assessmentFilter[group];
+          const pct = groups[group];
+          if (pct < min || pct > max) return false;
+        }
+      }
       return true;
     });
   }, [courses, filters, ratings]);
@@ -95,13 +119,21 @@ export function useFilters(courses: Course[], ratings: CourseRatings = {}) {
       return { ...f, [key]: [...set] };
     });
 
+  const assessmentActive = GROUPS.some(
+    (g) =>
+      filters.assessmentFilter[g].min > 0 || filters.assessmentFilter[g].max < 100,
+  )
+    ? 1
+    : 0;
+
   const activeCount =
     filters.levels.length +
     filters.offered.length +
     filters.categories.length +
     (filters.minCredits > 0 ? 1 : 0) +
     (filters.minRating > 0 ? 1 : 0) +
-    (filters.search ? 1 : 0);
+    (filters.search ? 1 : 0) +
+    assessmentActive;
 
   const reset = () => setFilters(emptyFilters);
 
