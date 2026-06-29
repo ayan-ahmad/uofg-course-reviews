@@ -13,6 +13,7 @@ const defaultAssessmentFilter: AssessmentFilter = {
 
 export type Filters = {
   search: string;
+  reviewed: boolean;
   levels: string[];
   offered: string[];
   categories: string[];
@@ -25,6 +26,7 @@ const STORAGE_KEY = "course-explorer-filters";
 
 export const emptyFilters: Filters = {
   search: "",
+  reviewed: false,
   levels: [],
   offered: [],
   categories: [],
@@ -35,7 +37,7 @@ export const emptyFilters: Filters = {
 
 export type CourseRatings = Record<string, { overall: number; count: number }>;
 
-export function useFilters(courses: Course[], ratings: CourseRatings = {}) {
+export function useFilters(courses: Course[], ratings: CourseRatings = {}, ratedCourses: string[]) {
   const [filters, setFilters] = useState<Filters>(emptyFilters);
   const [hydrated, setHydrated] = useState(false);
 
@@ -86,6 +88,11 @@ export function useFilters(courses: Course[], ratings: CourseRatings = {}) {
       if (filters.levels.length && !filters.levels.includes(c.level))
         return false;
       if (
+        filters.reviewed &&
+        ratedCourses.includes(c.code)
+      )
+        return false;
+      if (
         filters.offered.length &&
         !filters.offered.includes(c.typicallyOffered)
       )
@@ -133,6 +140,7 @@ export function useFilters(courses: Course[], ratings: CourseRatings = {}) {
     (filters.minCredits > 10 ? 1 : 0) +
     (filters.minRating > 0 ? 1 : 0) +
     (filters.search ? 1 : 0) +
+    (filters.reviewed ? 1 : 0) +
     assessmentActive;
 
   const reset = () => setFilters(emptyFilters);

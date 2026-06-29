@@ -81,7 +81,7 @@ function AssessmentSlider({
           {group}
         </span>
         <span className="text-xs text-ink-muted tabular-nums">
-          {min}–{max}%
+          {min}-{max}%
         </span>
       </div>
       <div className="space-y-1">
@@ -156,6 +156,22 @@ export default function FilterPanel({
         />
       </Section>
 
+      <Section label="Hide Reviewed Courses">
+        <ul className="flex flex-col gap-1.5">
+        <li>
+          <label className="flex cursor-pointer items-center gap-2 text-sm text-ink-secondary">
+            <input
+              type="checkbox"
+              checked={filters.reviewed}
+              onChange={(v) => setFilters((f) => ({ ...f, reviewed: v.target.checked }))}
+              className="h-4 w-4 accent-accent"
+            />
+            Hide Courses I've Reviewed
+          </label>
+        </li>
+    </ul>
+      </Section>
+
       <Section label="Minimum credits">
         <ul className="flex flex-col gap-1.5">
           {creditOptions.map((v) => (
@@ -213,7 +229,7 @@ export default function FilterPanel({
               </span>
             ))}
             <span className="flex items-center gap-1.5 text-xs text-ink-muted">
-              <span className="h-2 w-2 rounded-full flex-shrink-0 bg-border" />
+              <span className="h-2 w-2 rounded-full shrink-0 bg-border" />
               Flexible
             </span>
           </div>

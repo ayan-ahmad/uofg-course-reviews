@@ -18,11 +18,17 @@ export type Course = {
 export default function CourseExplorer({ courses }: { courses: Course[] }) {
   const [filterOpen, setFilterOpen] = useState(false);
   const [ratings, setRatings] = useState<CourseRatings>({});
+  const [reviewedCourses, setReviewedCourses] = useState<string[]>([]);
 
   useEffect(() => {
     fetch('/api/ratings')
       .then((r) => r.json())
       .then((data) => setRatings(data))
+      .catch(() => {});
+
+    fetch('/api/rated')
+      .then((r) => r.json())
+      .then((data) => setReviewedCourses(data))
       .catch(() => {});
   }, []);
 
@@ -37,7 +43,7 @@ export default function CourseExplorer({ courses }: { courses: Course[] }) {
     offeredOptions,
     creditOptions,
     categoryOptions,
-  } = useFilters(courses, ratings);
+  } = useFilters(courses, ratings, reviewedCourses);
 
   const filterProps = {
     filters,
@@ -103,6 +109,7 @@ export default function CourseExplorer({ courses }: { courses: Course[] }) {
                   key={c.code}
                   course={c}
                   rating={ratings[c.code] ?? null}
+                  isReviewed={reviewedCourses.includes(c.code)}
                 />
               ))}
             </div>

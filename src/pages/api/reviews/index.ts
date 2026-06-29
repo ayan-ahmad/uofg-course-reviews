@@ -34,7 +34,7 @@ export const POST: APIRoute = async ({ request, cookies }) => {
 
   if (!courseCode || !ratingFields.every(validRating)) {
     return new Response(
-      JSON.stringify({ error: 'All ratings must be integers 1–5 and courseCode is required' }),
+      JSON.stringify({ error: 'All ratings must be integers 1 to 5 and courseCode is required' }),
       { status: 400 },
     );
   }
