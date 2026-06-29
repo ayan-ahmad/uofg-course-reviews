@@ -43,7 +43,7 @@ type ReviewRow = {
 };
 
 const seedReviews: ReviewRow[] = [
-  // COMPSCI4003 – Algorithmics II
+  // COMPSCI4003 - Algorithmics II
   {
     userId: seedUsers[0].id, courseCode: 'COMPSCI4003',
     lecturerRating: 5, workloadRating: 3, difficultyRating: 4,
@@ -66,7 +66,7 @@ const seedReviews: ReviewRow[] = [
     createdAt: now - rand(10_000, 500_000),
   },
 
-  // COMPSCI4004 – (assuming this exists)
+  // COMPSCI4004 - (assuming this exists)
   {
     userId: seedUsers[3].id, courseCode: 'COMPSCI4004',
     lecturerRating: 3, workloadRating: 4, difficultyRating: 3,
@@ -82,7 +82,7 @@ const seedReviews: ReviewRow[] = [
     createdAt: now - rand(10_000, 500_000),
   },
 
-  // COMPSCI4025 – Maths for CS
+  // COMPSCI4025 - Maths for CS
   {
     userId: seedUsers[5].id, courseCode: 'COMPSCI4025',
     lecturerRating: 5, workloadRating: 4, difficultyRating: 5,
@@ -98,7 +98,7 @@ const seedReviews: ReviewRow[] = [
     createdAt: now - rand(10_000, 500_000),
   },
 
-  // COMPSCI4061 – Networks
+  // COMPSCI4061 - Networks
   {
     userId: seedUsers[7].id, courseCode: 'COMPSCI4061',
     lecturerRating: 4, workloadRating: 3, difficultyRating: 3,
@@ -114,7 +114,7 @@ const seedReviews: ReviewRow[] = [
     createdAt: now - rand(10_000, 500_000),
   },
 
-  // COMPSCI4073 – Systems Programming
+  // COMPSCI4073 - Systems Programming
   {
     userId: seedUsers[1].id, courseCode: 'COMPSCI4073',
     lecturerRating: 4, workloadRating: 5, difficultyRating: 5,
@@ -130,7 +130,7 @@ const seedReviews: ReviewRow[] = [
     createdAt: now - rand(10_000, 500_000),
   },
 
-  // COMPSCI5073 – Inf & Coding Theory (Level 5)
+  // COMPSCI5073 - Inf & Coding Theory (Level 5)
   {
     userId: seedUsers[3].id, courseCode: 'COMPSCI5073',
     lecturerRating: 5, workloadRating: 3, difficultyRating: 4,

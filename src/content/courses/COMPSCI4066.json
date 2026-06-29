@@ -43,7 +43,7 @@
   },
   "course_aims": {
     "label": "Course Aims",
-    "value": "To provide a theoretical and practical understanding of 2D and 3D visual perception based on current image analysis techniques and currently available vision software libraries.\nTo equip the student with the ability to tackle the practical aspects of developing algorithms for vision–based applications as listed above (section 13). Therefore, CVMA will provide the student with the basic tools to undertake Level 4 and Masters projects that require vision to be applied within in these related disciplines. \nTo prepare the student for a career in Industry as a Computer Vision specialist in areas such as Research & Development, Technical Marketing and Intellectual Property Management; or for an Academic career, e.g. PhD research or Research Assistantship."
+    "value": "To provide a theoretical and practical understanding of 2D and 3D visual perception based on current image analysis techniques and currently available vision software libraries.\nTo equip the student with the ability to tackle the practical aspects of developing algorithms for vision-based applications as listed above (section 13). Therefore, CVMA will provide the student with the basic tools to undertake Level 4 and Masters projects that require vision to be applied within in these related disciplines. \nTo prepare the student for a career in Industry as a Computer Vision specialist in areas such as Research & Development, Technical Marketing and Intellectual Property Management; or for an Academic career, e.g. PhD research or Research Assistantship."
   },
   "intended_learning_outcomes_of_course": {
     "label": "Intended Learning Outcomes of Course",
